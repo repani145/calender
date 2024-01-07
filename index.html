@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: linear-gradient(120deg,red,green,yellow,red,aqua,aquamarine,black,blue,blueviolet,brown,cadetblue,chocolate,coral,darkblue,darkgoldenrod,darkgreen,darkmagenta,darkorange,darkred,deeppink,firebrick,fuchsia,goldenrod,indigo,maroon,navy,yellowgreen,red,green,yellow,red,aqua,aquamarine,black,blue,blueviolet,brown,cadetblue,chocolate,coral,darkblue,darkgoldenrod,darkgreen,darkmagenta,darkorange,darkred,deeppink,firebrick,fuchsia,goldenrod,indigo,maroon,navy,yellowgreen,red,green,yellow,red,aqua,aquamarine,black,blue,blueviolet,brown,cadetblue,chocolate,coral,darkblue,darkgoldenrod,darkgreen,darkmagenta,darkorange,darkred,deeppink,firebrick,fuchsia,goldenrod,indigo,maroon,navy,yellowgreen,red,green,yellow,red,aqua,aquamarine,black,blue,blueviolet,brown,cadetblue,chocolate,coral,darkblue,darkgoldenrod,darkgreen,darkmagenta,darkorange,darkred,deeppink,firebrick,fuchsia,goldenrod,indigo,maroon,navy,yellowgreen);
+        }
+        .m{
+            display: flex;
+            /* background-color: aqua; */
+            width: 200px;
+            flex-flow: row wrap;
+            gap: 13px;
+            justify-content: flex-start;
+            align-content: center;
+        }
+        .m>div{
+            color: white;
+            padding-right: 8px; padding-left: 2px;
+        }
+        .r_side{
+            display: flex;
+            width: 420px;
+            flex-flow: row wrap;
+            gap: 20px;
+            align-items: baseline;
+            border: 1px solid ;
+            padding: 20px;
+            background-color: white;
+            /* justify-content: space-between;
+            align-content: space-between; */
+        }
+        .m>span:hover{
+            box-shadow: 0px 0px 3px 3px black;
+            text-shadow:2px 3px 5px black;
+            font-size: 115%;
+        }
+        .l_side{
+            display: flex;
+            flex-flow: column wrap;
+            padding-left: 200px;
+        }
+        .md{
+            display: flex;
+            flex-flow: row wrap;
+            gap: 40px;
+            /* background-color: aqua; */
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        .l_side_2{
+            display: flex;
+            flex-flow: column wrap;
+            gap: 25px;
+            height: 1000px;
+            width: 250px; 
+            background-color: white;
+            padding-left: 15px;
+        }
+    </style>
+</head>
+<body>
+    <span style="visibility: hidden;">00</span>
+    <div class="md">
+        <div class="l_side">
+            <div class="l_side_1">
+                <span style="font-size: 1400%;color: white;">20</span><br>
+                <p style="border: 3px solid;background-color: white;color: white; height: 1px;width: 200px;"></p><br>
+                <span style="color: white; font-size: 1400%;">24</span>
+            </div>
+            <div class="l_side_2" style="">
+                <h5 style="background-color: lightseagreen;width: 200px;">HOLIDAYS 2024</h5>
+                <span>JAN-13-LAHORI</span>
+                <span>JAN-14-MAKAR-SANKRANTHI</span>
+                <span>JAN-15-PONGAL</span>
+                <span>JAN-26-REPUBLIC DAY</span>
+                <span>FEB-14-VASANTH PANCHAMI</span>
+                <span>MAR-O8-MAHA SIVARATHRI</span>
+                <span>MAR-25-HOLI</span>
+                <span>MAR-29-GOOD FRIDAY</span>
+                <span>MAR-31-EASTER DAY</span>
+                <span>APR-09-UGADHI</span>
+                <span>APR-17-SRIRAMA NAVAMI</span>
+                <span>JUL-17-MOHARAM</span>
+                <span>AUG-15-INDEPENDENCE DAY</span>
+                <span>AUG-19-RAKSHA BANDHAN</span>
+                <span>SEP-07-CHATHURDHI</span>
+                <span>SEP-15-ONAM</span>
+                <span>OCT-02-GANDHI JAYANTHI</span>
+                <span>OCT-12-DASARA</span>
+                <span>OCT-31-DIWALI</span>
+                <span>DEC-25-CHRISTMAS</span>
+                
+            </div>
+        </div>
+        <div class="r_side">
+            <div class="jan m">
+                <h4 style="width: 180px;margin-bottom: -10px;">JANUARY</h4>
+                <div style="display: flex; flex-flow: row wrap;gap: 18px;background-color: orange;"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div>
+                <span>01</span><span>02</span><span>03</span><span>04</span><span>05</span><span>06</span><span>07</span><span>08</span><span>09</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span><span>31</span>
+            </div>
+            <div class="feb m">
+                <h4 style="width: 180px;margin-bottom: -10px;">FEBRUARY</h4>
+                <div style="display: flex; flex-flow: row wrap;gap: 18px; background-color: mediumspringgreen;"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div>
+                <span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span>01</span><span>02</span><span>03</span><span>04</span><span>05</span><span>06</span><span>07</span><span>08</span><span>09</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span>
+            </div>
+            <div class="mar m">
+                <h4 style="width: 180px;margin-bottom: -10px;">MARCH</h4>
+                <div style="display: flex; flex-flow: row wrap;gap: 18px;background-color: red;"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div>
+                <span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span>01</span><span>02</span><span>03</span><span>04</span><span>05</span><span>06</span><span>07</span><span>08</span><span>09</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span><span>31</span>
+            </div>
+            <div class="apl m">
+                <h4 style="width: 180px;margin-bottom: -10px;">APRIL</h4>
+                <div style="display: flex; flex-flow: row wrap;gap: 18px;background-color: palevioletred;"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div>
+                <span>01</span><span>02</span><span>03</span><span>04</span><span>05</span><span>06</span><span>07</span><span>08</span><span>09</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span>
+            </div>
+            <div class="may m">
+                <h4 style="width: 180px;margin-bottom: -10px;">MAY</h4>
+                <div style="display: flex; flex-flow: row wrap;gap: 18px; background-color: navy;"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div>
+                <span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span>01</span><span>02</span><span>03</span><span>04</span><span>05</span><span>06</span><span>07</span><span>08</span><span>09</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span><span>31</span>
+            </div>
+            <div class="june m">
+                <h4 style="width: 180px;margin-bottom: -10px;">JUNE</h4>
+                <div style="display: flex; flex-flow: row wrap;gap: 18px;background-color: gold;"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div>
+                <span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span>01</span><span>02</span><span>03</span><span>04</span><span>05</span><span>06</span><span>07</span><span>08</span><span>09</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span>
+            </div>
+            <div class="july m">
+                <h4 style="width: 180px;margin-bottom: -10px;">JULY</h4>
+                <div style="display: flex; flex-flow: row wrap;gap: 18px;background-color: mediumspringgreen;"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div>
+                <span>01</span><span>02</span><span>03</span><span>04</span><span>05</span><span>06</span><span>07</span><span>08</span><span>09</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span><span>31</span>
+            </div>
+            <div class="aug m">
+                <h4 style="width: 180px;margin-bottom: -10px;">AUGUST</h4>
+                <div style="display: flex; flex-flow: row wrap;gap: 18px;background-color: darkslateblue;"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div>
+                <span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span>01</span><span>02</span><span>03</span><span>04</span><span>05</span><span>06</span><span>07</span><span>08</span><span>09</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span><span>31</span>
+            </div>
+            <div class="sep m">
+                <h4 style="width: 180px;margin-bottom: -10px;">SEPTEMBER</h4>
+                <div style="display: flex; flex-flow: row wrap;gap: 18px;background-color: gold;"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div>
+                <span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span>01</span><span>02</span><span>03</span><span>04</span><span>05</span><span>06</span><span>07</span><span>08</span><span>09</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span>
+            </div>
+            <div class="oct m">
+                <h4 style="width: 180px;margin-bottom: -10px;">OCTOBER</h4>
+                <div style="display: flex; flex-flow: row wrap;gap: 18px;background-color: red;"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div>
+                <span style="visibility: hidden;">00</span><span>01</span><span>02</span><span>03</span><span>04</span><span>05</span><span>06</span><span>07</span><span>08</span><span>09</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span><span>31</span>
+            </div>
+            <div class="nov m">
+                <h4 style="width: 180px;margin-bottom: -10px;">NOVEMBER</h4>
+                <div style="display: flex; flex-flow: row wrap;gap: 18px;background-color: pink;"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div>
+                <span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span>01</span><span>02</span><span>03</span><span>04</span><span>05</span><span>06</span><span>07</span><span>08</span><span>09</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span>
+            </div>
+            <div class="dec m">
+                <h4 style="width: 180px;margin-bottom: -10px;">DECEMBER</h4>
+                <div style="display: flex; flex-flow: row wrap;gap: 18px;background-color: orange;"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div>
+                <span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span style="visibility: hidden;">00</span><span>01</span><span>02</span><span>03</span><span>04</span><span>05</span><span>06</span><span>07</span><span>08</span><span>09</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span><span>31</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
